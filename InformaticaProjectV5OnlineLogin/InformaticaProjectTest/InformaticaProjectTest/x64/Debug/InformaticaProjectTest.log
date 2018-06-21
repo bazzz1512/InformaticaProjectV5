@@ -1,0 +1,25 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  FileDialog.cpp
+  GetHandle.cpp
+  GetProcessName.cpp
+  Inject.cpp
+  md5.cpp
+d:\hacking\informatica\informaticaprojectv5onlinelogin\informaticaprojecttest\informaticaprojecttest\md5.cpp(114): warning C4267: 'argument': conversion from 'size_t' to 'MD5::size_type', possible loss of data
+  Online.cpp
+d:\hacking\informatica\informaticaprojectv5onlinelogin\informaticaprojecttest\informaticaprojecttest\online.cpp(37): warning C4101: 'e': unreferenced local variable
+  Source.cpp
+d:\hacking\informatica\informaticaprojectv5onlinelogin\informaticaprojecttest\informaticaprojecttest\source.cpp(247): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\hacking\informatica\informaticaprojectv5onlinelogin\informaticaprojecttest\informaticaprojecttest\source.cpp(249): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+d:\hacking\informatica\informaticaprojectv5onlinelogin\informaticaprojecttest\informaticaprojecttest\md5.cpp(353): warning C4717: 'operator<<': recursive on all control paths, function will cause runtime stack overflow
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_global_init referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_global_cleanup referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_easy_strerror referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_easy_init referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_easy_setopt referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_easy_perform referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+Online.obj : error LNK2019: unresolved external symbol __imp_curl_easy_cleanup referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Online::GetOutputServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetOutputServer@Online@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z)
+D:\Hacking\InformaTICA\InformaticaProjectV5OnlineLogin\InformaticaProjectTest\x64\Debug\InformaticaProjectTest.exe : fatal error LNK1120: 7 unresolved externals
